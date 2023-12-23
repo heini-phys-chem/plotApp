@@ -85,6 +85,7 @@ def plot_excel_data(excel_files):
 #    ax.set_xlabel('Elongation (%)')
 #    ax.set_ylabel('Standard Force (MPa)')
 #    ax.set_title('Data from Multiple Excel Files')
+# this is nur a test
     ax.legend()
     ax.spines['right'].set_visible(False)
     ax.spines['top'].set_visible(False)
