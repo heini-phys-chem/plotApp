@@ -56,7 +56,6 @@ def plot_excel_data(excel_files):
             interpolated_ys.append(interpolated_y)
 
 
-        # another try
         mean_y = np.mean(interpolated_ys, axis=0)
 
         x_bar = np.append(x_bar, x_max)
