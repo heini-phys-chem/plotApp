@@ -7,7 +7,6 @@ from scipy.interpolate import interp1d
 import PySimpleGUI as sg
 
 
-# let's see
 def plot_excel_data(excel_files):
     # Define some line styles
     line_styles = ['-', '--', '-.', ':']
